@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+  	<title>Portfolio</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="javascript/jscolor-2.0.4/jscolor.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/50370b2f57.js"></script>
+ 
+</head>
+<body id="rect">
+    <div class="container-fluid">
+        <img src="" class="img-circle center-block" width="190" height="190">
+        <h3>Akshay Singh</h3>
+        
+        <div style="text-align: center; width:50%;height:auto;margin-left:25%;" id="profileSection">
+            <h5>Seeking full-time opportunities in Cyber Security/ Front-End Development</h5>
+            
+            <a href="#"><img src="images/git.png" width="48" height="48"></a>
+            <a href="#"><img src="images/linkedIn.png" width="48" height="48"></a>
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-1">
+                <nav id="myScrollspy">
+                    <ul data-spy="affix" data-offset-top="105">
+                        <button id="font_change" type="button" class="affix_button btn btn-default btn-md ">
+                          <span><i class="fa fa-font change_color" aria-hidden="true"></i></span>
+                        </button>
+                <!--Color Picker Start-->
+                        <div class="dropdown">
+                            <button type="button" id="background_color_change" class="dropdown-toggle btn btn-default btn-md affix_button" type"button" data-toggle="dropdown">
+                              <span><i class="fa fa-paint-brush change_color" aria-hidden="true"></i></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><input class="jscolor" onchange="update(this.jscolor)" value="cc66ff"></li>
+                            </ul>		
+                        </div>	
+                <!--Color Picker End-->
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="col-sm-10" >
+                <div id="projects_section" class="center-block testSections">
+                    <h4>Projects</h4>
+                    <button onclick="func1(this)" class="icon_button glyphicon glyphicon-chevron-down"></button>
+                    <div class="projectsContent" id='projectOne'>
+                        <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
+                        <h5><strong>Project Name</strong>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                            <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
+                        </h5>
+                    </div>
+                    <hr>
+                    <div class="projectsContent" id='projectTwo'>
+                        <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
+                        <h5><strong>Project Name</strong>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                            <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
+                        </h5>
+                    </div>
+                    <hr>
+                    <div class="projectsContent" id='projectThree'>
+                        <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
+                        <h5><strong>Project Name</strong>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                            <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
+                        </h5>
+                    </div>
+                    <hr>
+                    <div class="projectsContent" id='projectFour'>
+                        <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
+                        <h5><strong>Project Name</strong>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                            <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
+                        </h5>
+                    </div>                    
+                </div>
+                <br>            
+                <div id="education_section" class="center-block testSections">
+                    <h4>Education</h4>
+                    <button onclick="func1(this)" class="icon_button glyphicon glyphicon-chevron-down">
+                    </button>	
+                    <div id="educationOne" class="educationContent">
+                        <img src="images/college.png" width="32" height="32">
+                        <h4>State University of New York at Plattsburgh</h4>
+                        <h5>0/0/0000 - 0/0/0000</h5>
+                        <h5>Description</h5>
+                    </div>
+                    <hr>
+                    <div id="educationTwo" class="educationContent">
+                        <img src="images/college.png" width="32" height="32">
+                        <h4>State University of New York at Plattsburgh</h4>
+                        <h5>0/0/0000 - 0/0/0000</h5>
+                        <h5>Description</h5>
+                    </div>                    
+                </div>
+                <br>
+                <div id="experience_section" class="center-block testSections">
+                    <h4>Experience</h4>
+                    <button onclick="func1(this)" class="icon_button glyphicon glyphicon-chevron-down"></button>
+                    <div id="experienceOne" class="experienceContent">
+                        <img src="images/job.png" width="32" height="32">
+                        <h4>Name of the Company</h4>
+                        <h5>Position  - month year - month year</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                    </div>
+                    <hr>
+                    <div id="experienceOne" class="experienceContent">
+                        <img src="images/job.png" width="32" height="32">
+                        <h4>Name of the Company</h4>
+                        <h5>Position  - month year - month year</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                    </div>                    
+                    <hr>
+                   <div id="experienceOne" class="experienceContent">
+                        <img src="images/job.png" width="32" height="32">
+                        <h4>Name of the Company</h4>
+                        <h5>Position  - month year - month year</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                    </div>                    
+                    <hr>
+                    <div id="experienceOne" class="experienceContent">
+                        <img src="images/job.png" width="32" height="32">
+                        <h4>Name of the Company</h4>
+                        <h5>Position  - month year - month year</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                    </div>                   
+                </div>
+                <br>
+                <div id="skills_section" class="center-block testSections">
+                    <h4>Skills</h4>
+                    <button onclick="func1(this)" class="icon_button glyphicon glyphicon-chevron-down"></button>
+                    <div id="circle1" class="skillsContent">
+                        <svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="" stroke-width="" fill="grey" />
+</svg>
+                    </div>
+                </div>
+                <br>
+
+                <div id="interests_section" class="center-block sections">
+                    <h4>Interests</h4>
+                    <button onclick="func1(this)" class="icon_button glyphicon glyphicon-chevron-down"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function func1(item){
+            item = item.closest("div");
+            name = item.id;
+            divHeight = window.getComputedStyle(document.getElementById(name)).height;
+
+
+        }
+
+        function func2(){
+            if(document.getElementById('red')){
+                document.body.style.backgroundColor = "red";
+            }
+        }
+        function update(jscolor) {
+            // 'jscolor' instance can be used as a string
+            document.getElementById('rect').style.backgroundColor = '#' + jscolor
+        }	
+
+
+
+    </script>
+</body>
+</html>

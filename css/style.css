@@ -1,0 +1,134 @@
+h3{
+	text-align:center;
+}
+ul{
+	list-style-type:none;
+	
+}
+#font_change{
+	background-color:red;
+}
+.change_color{
+	color:white;
+}
+#background_color_change{
+	background-color:blue;
+}
+
+h4{
+	text-align:center;
+}
+.icon_button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+	float:right;
+	margin-top:-32px;
+}
+.img-circle{
+	margin-top:3%;
+}
+.smooth_expand{
+    -webkit-animation: smooth 1.15s; /* Safari 4.0 - 8.0 */
+    animation: smooth 1.15s;
+	
+}
+
+.smooth_contract{
+    -webkit-animation: contract 1.15s; /* Safari 4.0 - 8.0 */
+    animation: contract 1.15s;
+}
+
+.affix_button{
+	width:60px;
+}
+/*TOP DIVS */
+expandDiv{
+    border: 2px solid black;
+    height: auto;
+    width: 60%;
+}
+.sections{
+	border:2px solid black; 
+	height:auto;
+	width:45%;
+}
+.testSections{
+    border:2px solid black; 
+	height:auto;
+	width:65%;
+}
+.content{
+    float:left;
+}
+/*Projects Section*/
+.projectsContent{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+#projects_section h5{
+    vertical-align: top; 
+    margin-left: 1%; 
+    display: inline-block;
+}
+#projects_section h5 p{
+    margin-top: 2%;
+}
+
+/*END of Projects Section*/
+
+/*Education Section*/
+.educationContent{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+.educationContent h4{
+    display: inline-block;
+}
+.educationContent h5{
+    margin-left: 8%;
+}
+/*END of Education Section*/
+
+/*Experience Section*/
+.experienceContent{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+.experienceContent h4{
+    display: inline-block;
+}
+.experienceContent h5{
+    margin-left: 8%;
+    margin-top: 0px;
+}
+.experienceContent p{
+    margin-left: 8%;
+    margin-top: 0px;
+}
+/*END of Skills Section*/
+
+/*Experience Section*/
+.skillsContent{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+/*END of Skills Section*/
+
+/* Keyframes */
+
+@keyframes contract{
+	0%{height:300px;width:100%;}
+	100%{height:40px;width:60%;}
+}
+
+@keyframes smooth{
+	0%{height:40px;width:60%;}
+	100%{height:300px;width:100%;}		
+}
