@@ -53,7 +53,7 @@ expandDiv{
 }
 .sections{
 	border:2px solid black; 
-	height:auto;
+	height:42px;
 	width:45%;
 }
 .testSections{
@@ -63,6 +63,12 @@ expandDiv{
 }
 .content{
     float:left;
+}
+.new{
+    display:none;
+}
+.old{
+    display: block;
 }
 /*Projects Section*/
 .projectsContent{
@@ -111,14 +117,44 @@ expandDiv{
     margin-left: 8%;
     margin-top: 0px;
 }
-/*END of Skills Section*/
+/*END of Expereince Section*/
 
-/*Experience Section*/
+/*Skill Section*/
 .skillsContent{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 3%;
 }
+#circle{
+    border-radius: 40px; 
+    display: inline-block;
+    border: 1px solid black;
+    width:70px;
+    height:70px;
+    transition: all 1s;
+}
+#circle:hover{
+    background-color: orange;
+}
+/*END of Skill Section*/
+
+/*Interests Section*/
+.interestsContent{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+/*END of Interests Section*/
+
+/*@keyframes demo{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+*/
+
 /*END of Skills Section*/
 
 /* Keyframes */

@@ -47,40 +47,42 @@
             </div>
             
             <div class="col-sm-10" >
-                <div id="projects_section" class="center-block testSections">
+                <div id="projects_section" class="center-block sections">
                     <h4>Projects</h4>
-                    <button onclick="func1(this)" class="icon_button glyphicon glyphicon-chevron-down"></button>
-                    <div class="projectsContent" id='projectOne'>
-                        <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
-                        <h5><strong>Project Name</strong>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
-                            <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
-                        </h5>
+                    <button onclick="expandDiv(this)" class="icon_button glyphicon glyphicon-chevron-down"></button>
+                    <div>
+                        <div class="projectsContent new" id='project1'>
+                            <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
+                            <h5><strong>Project Name</strong>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                                <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
+                            </h5>
+                        </div>
+                        <hr>
+                        <div class="projectsContent new" id='project2'>
+                            <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
+                            <h5><strong>Project Name</strong>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                                <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
+                            </h5>
+                        </div>
+                        <hr>
+                        <div class="projectsContent new" id='project3'>
+                            <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
+                            <h5><strong>Project Name</strong>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                                <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
+                            </h5>
+                        </div>
+                        <hr>
+                        <div class="projectsContent new" id='project4'>
+                            <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
+                            <h5><strong>Project Name</strong>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
+                                <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
+                            </h5>
+                        </div>                    
                     </div>
-                    <hr>
-                    <div class="projectsContent" id='projectTwo'>
-                        <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
-                        <h5><strong>Project Name</strong>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
-                            <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
-                        </h5>
-                    </div>
-                    <hr>
-                    <div class="projectsContent" id='projectThree'>
-                        <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
-                        <h5><strong>Project Name</strong>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
-                            <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
-                        </h5>
-                    </div>
-                    <hr>
-                    <div class="projectsContent" id='projectFour'>
-                        <img src="images/projImage.png" class="img-thumbnail" width="170" height="170">
-                        <h5><strong>Project Name</strong>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit<br>accusantium doloremque laudantium totam rem<br>eaque ipsa quae ab illo inventore veritatis et quasi<br>eaque ipsa quae ab illo inventore veritatis et quasi</p>
-                            <a style="decoration: none;" href="#"><img src="images/git.png" width="32" height="32"></a>
-                        </h5>
-                    </div>                    
                 </div>
                 <br>            
                 <div id="education_section" class="center-block testSections">
@@ -137,29 +139,55 @@
                 <div id="skills_section" class="center-block testSections">
                     <h4>Skills</h4>
                     <button onclick="func1(this)" class="icon_button glyphicon glyphicon-chevron-down"></button>
-                    <div id="circle1" class="skillsContent">
-                        <svg height="100" width="100">
-  <circle cx="50" cy="50" r="40" stroke="" stroke-width="" fill="grey" />
-</svg>
+                    <div style="text-align: center;" id="circleContainer">
+                        <div class="skillsContent" id="circle">
+                        </div>
+                        <div class="skillsContent" id="circle">
+                        </div> 
+                        <div class="skillsContent" id="circle">
+                        </div> 
+                        <div class="skillsContent" id="circle">
+                        </div> 
                     </div>
                 </div>
                 <br>
 
-                <div id="interests_section" class="center-block sections">
+                <div id="interests_section" class="center-block testSections">
                     <h4>Interests</h4>
                     <button onclick="func1(this)" class="icon_button glyphicon glyphicon-chevron-down"></button>
+                    <div class="interestsContent">
+                        <h4>Hello</h4>                    
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script>
+        //for (var i = 1; i < 5; i++){
+          //  document.querySelector('#' + 'project' + i).style.display = 'none';
+        //}
+        //document.getElementById('projectOne').style.display = 'none';
+        
+        function expandDiv(item){
+            item = item.closest("div");
+            name = item.id;
+            divHeight = window.getComputedStyle(document.getElementById(name)).height;
+            console.log(name);
+            document.querySelector("#" + name).classList.toggle('testSections');
+            var h = document.querySelector('#' + name).children();
+            console.log(h);
+            document.querySelector('#' + name).classList.remove('new');
+            document.querySelector("#" + name).classList.toggle('old');
+            //document.querySelector('#' + name).classList.remove('new');
+            
+        }
+
+        
 
         function func1(item){
             item = item.closest("div");
             name = item.id;
             divHeight = window.getComputedStyle(document.getElementById(name)).height;
-
-
         }
 
         function func2(){
